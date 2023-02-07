@@ -76,7 +76,7 @@ sudo apt install playit
 
     sleep 3
 
-    playit
+    playit;;
 
     3)
 
