@@ -72,7 +72,7 @@ else
 
     echo "Warp Installed! Pterodactyl proccess continues*"
 
-    warp o 
+
 
     if warp h foo >/dev/null 2>&1; then
 
