@@ -66,13 +66,14 @@ case $input in
     
     apt install curl -y
     
+
     curl -SsL https://playit-cloud.github.io/ppa/key.gpg | sudo apt-key add -
-
-    curl -SsL -o /etc/apt/sources.list.d/playit-cloud.list https://playit-cloud.github.io/ppa/playit-cloud.list
-
-    apt update
-
-    apt install playit
+    
+    sudo curl -SsL -o /etc/apt/sources.list.d/playit-cloud.list https://playit-cloud.github.io/ppa/playit-cloud.list
+    
+    sudo apt update
+    
+    sudo apt install playit
 
     echo "PLAYIT INSTALLATION COMPLETE! proceeding in 3s"
 
