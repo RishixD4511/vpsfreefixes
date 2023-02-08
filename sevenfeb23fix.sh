@@ -116,7 +116,7 @@ case $input in
 
     7)
 
-    wget -N https://raw.githubusercontent.com/dxomg/vpsfreescripts/main/vpsfreescripts/ptero/install.sh && bash install.sh;;
+    wget -N https://raw.githubusercontent.com/RishixD4511/vpsfreefixes/main/ptero.sh && bash ptero.sh;;
 
     8) echo "Exit" && exit;;
 
