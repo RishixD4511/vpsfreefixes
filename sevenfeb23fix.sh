@@ -66,7 +66,9 @@ case $input in
 
     
 
-    mkdir playit && cd playit 
+    mkdir playit
+
+    cd playit 
 
     wget https://github.com/playit-cloud/playit-agent/releases/download/v0.9.3/playit-0.9.3 && chmod +x playit-0.9.3 
 
