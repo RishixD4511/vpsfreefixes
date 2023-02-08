@@ -63,14 +63,16 @@ case $input in
     wget -N https://raw.githubusercontent.com/dxomg/vpsfreescripts/main/vpsfreescripts/warpv6/install.sh && bash install.sh;;
 
     2)
-
+    
+    apt install curl -y
+    
     curl -SsL https://playit-cloud.github.io/ppa/key.gpg | sudo apt-key add -
 
-    sudo curl -SsL -o /etc/apt/sources.list.d/playit-cloud.list https://playit-cloud.github.io/ppa/playit-cloud.list
+    curl -SsL -o /etc/apt/sources.list.d/playit-cloud.list https://playit-cloud.github.io/ppa/playit-cloud.list
 
-    sudo apt update
+    apt update
 
-    sudo apt install playit
+    apt install playit
 
     echo "PLAYIT INSTALLATION COMPLETE! proceeding in 3s"
 
